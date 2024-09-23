@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GioiThieuActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:paddingLeft="0dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Giới thiệu" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+
+        android:textColor="@color/black"
+        android:text="-GYM POWER FITNESS là một app tập gym giúp cho người dùng cải thiện sức khỏe và vóc dáng, xem những động tác thuộc nhóm cơ nào để cho người dùng dễ dàng lựa chọn các động tác phù hợp với mục tiêu của bản thân." />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="-GYM POWER FITNESS là một app tập gym hoàn toàn miễn phí, bao gồm nhiều chức năng phục vụ cho người dùng. " />
+
+</LinearLayout>

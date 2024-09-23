@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChiTietDongTacMongActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_Back"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/img_muiten" />
+        <TextView
+            android:id="@+id/tvVai"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bài tập mông"
+            android:textColor="#075BE8"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/img_Add"
+            android:layout_marginRight="5dp"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/img_add" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lvDongTacMong"
+        android:layout_width="365dp"
+        android:layout_height="519dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp" />
+</LinearLayout>
